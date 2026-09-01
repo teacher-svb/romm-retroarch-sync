@@ -5,8 +5,6 @@
 # itself, so they are no longer listed here.
 #
 # Pinned to a specific commit: bumping it is an explicit, reviewable change.
-# NOTE: github.com/Covin90/ludo is currently private, so installing this way
-# needs an authenticated git (`gh auth setup-git`, or a PAT in the URL).
 romm-sync-engine @ git+https://github.com/Covin90/ludo@354fa67#subdirectory=engine
 
 # For local development, prefer an editable install pointed at your checkout so
